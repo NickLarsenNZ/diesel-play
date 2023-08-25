@@ -6,5 +6,6 @@ diesel::table! {
         title -> Varchar,
         body -> Text,
         published -> Bool,
+        published_date -> Nullable<Timestamp>,
     }
 }
